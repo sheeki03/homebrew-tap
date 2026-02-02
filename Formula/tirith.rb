@@ -40,17 +40,8 @@ class Tirith < Formula
 
   def caveats
     <<~EOS
-      To activate tirith, add this line to your shell profile:
-
-        For zsh  (~/.zshrc):   eval "$(tirith init)"
-        For bash (~/.bashrc):  eval "$(tirith init)"
-        For fish (~/.config/fish/config.fish):  tirith init | source
-
-      Then restart your terminal or run:
-        source ~/.zshrc    # (or ~/.bashrc)
-
-      Verify with:
-        tirith doctor
+      Add to your shell profile:
+        eval "$(tirith init)"
     EOS
   end
 
