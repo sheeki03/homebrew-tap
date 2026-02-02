@@ -2,27 +2,27 @@ class Tirith < Formula
   desc "URL security analysis for shell environments"
   homepage "https://github.com/sheeki03/tirith"
   license "Apache-2.0"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.0/tirith-aarch64-apple-darwin.tar.gz"
-      sha256 "2e31b8a3102a1f7406c98789f2c62b667133dd08caac23a5378aeec6e50f8c05"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.1/tirith-aarch64-apple-darwin.tar.gz"
+      sha256 "01e3f2308ff341502ae27f46a73e2de9da49220766882400171be1eca734e361"
     end
     on_intel do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.0/tirith-x86_64-apple-darwin.tar.gz"
-      sha256 "659138b4c0c269af7a911fff07562a1eaf65f386d7ed9ca52dfa219126840483"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.1/tirith-x86_64-apple-darwin.tar.gz"
+      sha256 "e6c043686962701e8294b11acb7b0b5fd1d96539e48d492d674378adf5e6725e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.0/tirith-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c4bd1a1f77673ae7d010491d751b4c17fb71ec058da1e5f24f56b4215fa4df82"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.1/tirith-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "524ee3fdea82d632745808856da9cd94d41868ba134940186a1a60b51355b6c9"
     end
     on_intel do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.0/tirith-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2cda252be083429cc90b317b3e7c08f26cfb466274b35081d1c6f7823f665177"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.1/tirith-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ef65b2ca31c2fed28d2ad523bb8157e621fe13cc6f0a2cdc33fdba1d33c8788c"
     end
   end
 
