@@ -2,27 +2,27 @@ class Tirith < Formula
   desc "Terminal security - catches homograph attacks, pipe-to-shell, ANSI injection"
   homepage "https://github.com/sheeki03/tirith"
   license "AGPL-3.0-only"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.5/tirith-aarch64-apple-darwin.tar.gz"
-      sha256 "5ec65ea5b9f4bfc45f6ff8bb05757898da1e6ed61be0ef7cc604c699e351aa97"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.6/tirith-aarch64-apple-darwin.tar.gz"
+      sha256 "b51f8fd0aed48a7bf2cdea937b14c950c93634e737dd7499f96b6ea7a376c096"
     end
     on_intel do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.5/tirith-x86_64-apple-darwin.tar.gz"
-      sha256 "b9ad83c43abb02e718982db60b25eb5db9a71ed8849e10a8eb6f1430cfdfef03"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.6/tirith-x86_64-apple-darwin.tar.gz"
+      sha256 "d6c566923a5cadb4aced39afab8345766f3451fa2cd2b6a6909b42c58e1e71c6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.5/tirith-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "d68825a9c5bf5227b7a9303f247b4f051b3af7ba2b969b760509a636915ea13f"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.6/tirith-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c670012993a5e8661bd91920a6013c002c75905f6d55b6dc16ed8af64f4b8246"
     end
     on_intel do
-      url "https://github.com/sheeki03/tirith/releases/download/v0.1.5/tirith-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0d7f17e8521ce71b7ce891dafdec923d9944c0ac5cfcc52d5d8a0b843c41b751"
+      url "https://github.com/sheeki03/tirith/releases/download/v0.1.6/tirith-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "74414357cbb1c822216b473cd428db858e068bad7ac42b800f3d4414d334fce0"
     end
   end
 
