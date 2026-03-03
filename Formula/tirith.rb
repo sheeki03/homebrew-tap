@@ -7,22 +7,22 @@ class Tirith < Formula
   on_macos do
     on_arm do
       url "https://github.com/sheeki03/tirith/releases/download/v0.2.4/tirith-aarch64-apple-darwin.tar.gz"
-      sha256 "ebbbd948fe1ad82e052467190b737fcffd820371f2da5a1c4e9e1952ce9bf771"
+      sha256 "c4cced3e02e1f654a7cfce1517033ebd89b2e3c09daf37e5224fb513206108f6"
     end
     on_intel do
       url "https://github.com/sheeki03/tirith/releases/download/v0.2.4/tirith-x86_64-apple-darwin.tar.gz"
-      sha256 "9182ca24dc9bd35bb7fb894c0ee41af3a288c95cac6b1e1ab24c5bac2cc2e54f"
+      sha256 "68ab1fd8def5c9cc575bd2e2a002de513a4b196448275083ab2cdabe281c65bc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/sheeki03/tirith/releases/download/v0.2.4/tirith-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "195ca67466c8dfdc48928eb7f8b29aa672b06187681b9ba31f7d64e1162b4ee4"
+      sha256 "c74d636547394aa069dc537061e7533ab6791f545ae8a4e19b8b4819e59796a5"
     end
     on_intel do
       url "https://github.com/sheeki03/tirith/releases/download/v0.2.4/tirith-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ac5651d57aa7eda608b3fac4de4f0aa6b91cba668e7f17c23a45f1e3f429130b"
+      sha256 "f02f06289c0bf675713c760debc95d2097766d923889482a439d93a332f8a11c"
     end
   end
 
